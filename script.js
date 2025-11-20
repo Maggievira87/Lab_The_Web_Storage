@@ -1,4 +1,5 @@
 let currentPokemon = null;
+<<<<<<< HEAD
 const pokeapi_url = "https://pokeapi.co/api/v2/pokemon/";
 const favorites_key = "pokeFavorites";
 const resultDiv = document.getElementById('result');
@@ -36,3 +37,13 @@ function searchPokemon(pokemonName) {
 searchPokemon("pikachu");
 searchPokemon("1");   // Bulbasaur
 searchPokemon("charizard");
+=======
+
+const pokeapi_url = "https://pokeapi.co/api/v2/pokemon/";
+const favorites_key = "pokeFavorites";
+
+const resultDiv = document.getElementById('result');
+const pokemonInput = document.getElementById('pokemonName');
+const favoritesDiv = document.getElementById('favoritos');
+const saveButton = document.getElementById('saveButton');
+>>>>>>> origin/santiago
